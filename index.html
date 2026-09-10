@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>PlayForge</title>
+	<link rel='icon' href='img/favicon.png' type='image/png'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css' integrity='sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==' crossorigin='anonymous' referrerpolicy='no-referrer' />
+	<link rel='stylesheet' href='style.css'>
+	<script src='bd.js' defer></script>
+	<script src='main.js' defer></script>
+</head>
+<body>
+	<div class='overlay'> </div>
+	<div class='cart-dropdown'> 
+		<h3>Корзина</h3>
+		<ul class='cart-items'>
+			</ul>
+		<p class='cart-empty-msg'>Ваша корзина пуста.</p>
+		<p class='cart-total'></p>
+	</div>
+
+	<div class='modal-container'> 
+		<div class='modal-block-bottom-title'>
+			<h2> Tittle modal</h2>
+			<button class='modal-close global-close'>X</button>
+		</div>
+		<div class='modal-block'>
+			<div class='modal-block-slider'> 
+				<div class='slider'>
+					<div class='sliderbar'></div>
+					<div class='dots'>
+						<div class='dot dot-1 active'></div>
+						<div class='dot dot-2'></div>
+						<div class='dot dot-3'></div>
+					</div>
+					<div class='arrow arrow-left'></div>
+					<div class='arrow arrow-right'></div>
+				</div>
+			</div>
+			<div class='modal-block-info'></div>
+		</div>
+	</div>
+	<div class='container'>
+		<header>
+			<div class='brand'>
+				<div class='logo'>PF</div>
+				<div>
+					<h1>PlayForge</h1>
+					<div class='logo-desc'>Игры, скидки</div>
+				</div>
+			</div>
+
+			<nav>
+				<div class='search'>
+					<form class='form-s'>
+						<input type='text' placeholder='Поиск игр...'>
+						<button type='submit'><i class='fa fa-search' aria-hidden='true'></i></button>
+					</form>
+				</div>
+				<div class='actions'>
+					<div class='icon-btn cart-btn'><i class='fa fa-shopping-cart' aria-hidden='true'></i> Корзина</div> 
+					<a href='index.html' class='icon-btn'>Магазин</a>
+					<a href='login.html' class='icon-btn'>Вход</a>
+				</div>
+			</nav>
+		</header>
+
+		<section class='hero'>
+			<div class='hero-info'>
+				<h2>Большая зимняя распродажа - до 80% скидки</h2>
+				<p>Популярные новинки и классика - собраны в одном месте. Соберите свою коллекцию.</p>
+				<div class='ak-ka'>
+					<button class='btn cart-btn'>Корзина</button>
+					<form action='index.html'>
+						<button type='submit' class='btn'>Магазин</button>
+                    </form>
+				</div>
+			</div>
+			<div class='hero-art'><img src='img/image.jpeg' alt='Картинка'></div>
+		</section>
+
+		<div class='main'>
+			<div class='sidebar'>
+				<div class='filter'>
+					<h3>Жанры</h3>
+					<div class='genres'>
+						</div>
+				</div>
+			</div>
+		    <div class='games'>
+
+			</div>
+		</div>
+		<footer>
+            <div class='footer-col'>
+                <h3>PlayForge</h3>
+                <p>Ваш портал к лучшим играм.</p>
+            </div>
+            <div class='footer-col'>
+                <h4>Навигация</h4>
+                <ul>
+                    <li>Магазин</li>
+                    <li>Об акциях</li>
+                    <li>Помощь</li>
+                </ul>
+            </div>
+            <div class='footer-col'>
+                <h4>Контакты</h4>
+                <p>email: support@playforge.kz</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
