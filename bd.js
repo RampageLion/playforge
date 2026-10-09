@@ -362,7 +362,7 @@ const objData = {
     },
     '041': {
         title: 'League of Legends',
-        img: 'https://s1.1zoom.me/b5050/559/310407-alexfas01_1920x1080.jpg',
+        img: 'https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/EGS_LeagueofLegends_RiotGames_S1_2560x1440-47eb328eac5ddd63ebd096ded7d0d5ab?resize=1&w=480&h=270&quality=medium',
         price: '0',
         genre: 'MOBA / Онлайн',
         rating: 9.1,
